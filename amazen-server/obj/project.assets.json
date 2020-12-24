@@ -958,19 +958,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cunni\\.nuget\\packages\\": {}
+    "C:\\Users\\Dan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\codeworks\\CSharp\\amazen\\amazen-server\\amazen-server.csproj",
+      "projectUniqueName": "C:\\Users\\Dan\\codeworks\\csharp\\amazen\\amazen-server\\amazen-server.csproj",
       "projectName": "amazen-server",
-      "projectPath": "C:\\source\\codeworks\\CSharp\\amazen\\amazen-server\\amazen-server.csproj",
-      "packagesPath": "C:\\Users\\Cunni\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\codeworks\\CSharp\\amazen\\amazen-server\\obj\\",
+      "projectPath": "C:\\Users\\Dan\\codeworks\\csharp\\amazen\\amazen-server\\amazen-server.csproj",
+      "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dan\\codeworks\\csharp\\amazen\\amazen-server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cunni\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -1043,7 +1043,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

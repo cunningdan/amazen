@@ -67,6 +67,11 @@ namespace amazen_server
             services.AddScoped<IDbConnection>(x => CreateDbConnection());
             services.AddTransient<ProfileService>();
             services.AddTransient<ProfileRepository>();
+            services.AddTransient<ItemService>();
+            services.AddTransient<ItemRepository>();
+            services.AddTransient<WishlistService>();
+            services.AddTransient<WishlistRepository>();
+
 
             // REVIEW Do you want to do something here?
 
@@ -84,10 +89,10 @@ namespace amazen_server
         {
             if (env.IsDevelopment())
             {
+                app.UseCors("CorsDevPolicy");
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "amazen-server v1"));
-                app.UseCors("CorsDevPolicy");
             }
 
             Auth0ProviderExtension.ConfigureKeyMap(new List<string>() { "id" });
